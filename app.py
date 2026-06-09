@@ -7,7 +7,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 # 1. CONFIGURACIÓN DE LA PÁGINA (¡Siempre debe ir primero!)
 # =====================================================================
 st.set_page_config(page_title="BurguerChatbot", page_icon="🍔")
-st.title("")
+st.title("Burger bot🍔")
 
 # Configuración de API Key
 genai.configure(api_key="AQ.Ab8RN6JCVTGSLcz_6v8NAPL38Fc_4QDRN1I2LqxpJ5qdyZiA4g")
