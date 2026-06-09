@@ -1,6 +1,6 @@
 ﻿import streamlit as st
 import google.generativeai as genai
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # =====================================================================
@@ -10,7 +10,7 @@ st.set_page_config(page_title="BurguerChatbot", page_icon="🍔")
 st.title("")
 
 # Configuración de API Key
-genai.configure(api_key="AQ.Ab8RN6LhEAg_20yy_ly5rljoe4ZDHUe8bTo_Ozh9PWc1Cg5N5w")
+genai.configure(api_key="AQ.Ab8RN6JCVTGSLcz_6v8NAPL38Fc_4QDRN1I2LqxpJ5qdyZiA4g")
 
 # =====================================================================
 # 2. BASE DE DATOS Y CONFIGURACIÓN DE GEMINI
