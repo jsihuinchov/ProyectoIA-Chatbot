@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 
 # Asegúrate de configurar tu API KEY aquí
-os.environ["GOOGLE_API_KEY"] = "AQ.Ab8RN6JCVTGSLcz_6v8NAPL38Fc_4QDRN1I2LqxpJ5qdyZiA4g"
+os.environ["GOOGLE_API_KEY"] = "AQ.Ab8RN6IKFIdddzoyVTTkxZ1bxjaYg5_msZrcxdHDSacD6GQZvw"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Listar modelos disponibles
