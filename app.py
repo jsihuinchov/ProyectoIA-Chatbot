@@ -10,7 +10,7 @@ st.set_page_config(page_title="BurguerChatbot", page_icon="🍔")
 st.title("")
 
 # Configuración de API Key
-genai.configure(api_key="AIzaSyBVaN7gQDhBrq8iYpkDS37ppzMhOaEIYiw")
+genai.configure(api_key="AQ.Ab8RN6LhEAg_20yy_ly5rljoe4ZDHUe8bTo_Ozh9PWc1Cg5N5w")
 
 # =====================================================================
 # 2. BASE DE DATOS Y CONFIGURACIÓN DE GEMINI
