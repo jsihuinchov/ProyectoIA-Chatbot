@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bembos - ¡Como más te gusta! (Premium Replica)</title>
+    <!-- Iconos y Fuentes Modernas -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Rubik:ital,wght@0,700;1,900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --azul-bembos: #002f6c;
+            --rojo-bembos: #e31837;
+            --amarillo-bembos: #ffc72c;
+            --azul-oscuro: #001d44;
+            --blanco: #ffffff;
+            --gris-claro: #f8f9fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: var(--gris-claro);
+            color: #333;
+            overflow-x: hidden;
+            /* Patrón de fondo sutil y juvenil */
+            background-image: radial-gradient(#002f6c10 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+
+        /* ========================================== */
+        /* NAVBAR PREMIUM                             */
+        /* ========================================== */
+        header {
+            background-color: var(--azul-bembos);
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 6px solid var(--rojo-bembos);
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            box-shadow: 0 4px 20px rgba(0, 47, 108, 0.2);
+        }
+
+        .logo {
+            color: var(--blanco);
+            font-family: 'Rubik', sans-serif;
+            font-size: 32px;
+            font-weight: 900;
+            text-transform: uppercase;
+            font-style: italic;
+            letter-spacing: -1px;
+            text-shadow: 2px 2px 0px var(--rojo-bembos);
+        }
+
+        .logo span {
+            color: var(--amarillo-bembos);
+            text-shadow: 2px 2px 0px var(--azul-oscuro);
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a {
+            color: var(--blanco);
+            text-decoration: none;
+            margin-left: 30px;
+            font-weight: 600;
+            font-size: 16px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 5px 0;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background-color: var(--amarillo-bembos);
+            transition: width 0.3s ease;
+        }
+
+        nav a:hover {
+            color: var(--amarillo-bembos);
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        /* ========================================== */
+        /* HERO SECTION                               */
+        /* ========================================== */
+        .hero {
+            background: linear-gradient(135px, rgba(0, 45, 108, 0.85), rgba(227, 24, 55, 0.5)), 
+                        url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1000&auto=format&fit=crop') no-repeat center center/cover;
+            height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+            position: relative;
+        }
+
+        /* Ondas estéticas divisorias abajo del Hero */
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 30px;
+            background: var(--gris-claro);
+            clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 85% 90%, 50% 30%, 15% 90%, 0% 0%);
+        }
+
+        .hero h1 {
+            font-family: 'Rubik', sans-serif;
+            font-size: 65px;
+            font-weight: 900;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            font-style: italic;
+            line-height: 1.1;
+            text-shadow: 4px 4px 0px var(--azul-oscuro);
+        }
+
+        .hero h1 span {
+            color: var(--amarillo-bembos);
+            display: block;
+            font-size: 75px;
+            transform: skewX(-5deg);
+        }
+
+        .hero p {
+            font-size: 22px;
+            margin-bottom: 35px;
+            max-width: 700px;
+            font-weight: 400;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+        }
+
+        .btn-order {
+            background-color: var(--amarillo-bembos);
+            color: var(--azul-oscuro);
+            padding: 18px 40px;
+            font-size: 20px;
+            font-weight: 800;
+            text-decoration: none;
+            border-radius: 50px;
+            text-transform: uppercase;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 6px 0px var(--rojo-bembos), 0 10px 20px rgba(0,0,0,0.3);
+            border: 2px solid var(--azul-oscuro);
+        }
+
+        .btn-order:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 11px 0px var(--rojo-bembos), 0 15px 25px rgba(0,0,0,0.4);
+            background-color: #ffe066;
+        }
+
+        .btn-order:active {
+            transform: translateY(2px);
+            box-shadow: 0 2px 0px var(--rojo-bembos);
+        }
+
+        /* ========================================== */
+        /* SECCIÓN CARDS (RECOMENDADOS)               */
+        /* ========================================== */
+        .menu-preview {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .menu-preview h2 {
+            font-family: 'Rubik', sans-serif;
+            font-size: 38px;
+            color: var(--azul-bembos);
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            font-style: italic;
+        }
+
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: var(--blanco);
+            border-radius: 20px;
+            overflow: hidden;
+            border: 3px solid var(--azul-bembos);
+            box-shadow: 6px 6px 0px var(--azul-bembos);
+            transition: all 0.3s ease;
+            text-align: left;
+        }
+
+        .card:hover {
+            transform: translate(-5px, -5px);
+            box-shadow: 12px 12px 0px var(--rojo-bembos);
+            border-color: var(--rojo-bembos);
+        }
+
+        .card-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 3px solid var(--azul-bembos);
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: 800;
+            color: var(--azul-bembos);
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .card-price {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--rojo-bembos);
+        }
+
+        /* ========================================== */
+        /* INTERFAZ DEL CHATBOT INTEGRADO             */
+        /* ========================================== */
+        
+        /* Botón Flotante */
+        .chatbot-launcher {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 70px;
+            height: 70px;
+            background-color: var(--amarillo-bembos);
+            color: var(--azul-bembos);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 32px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            z-index: 1000;
+            cursor: pointer;
+            border: 3px solid var(--azul-bembos);
+        }
+
+        .chatbot-launcher:hover {
+            transform: scale(1.1) rotate(10deg);
+            background-color: var(--rojo-bembos);
+            color: var(--blanco);
+            border-color: var(--blanco);
+            box-shadow: 0 0 20px var(--rojo-bembos);
+        }
+
+        /* Tooltip Flotante */
+        .chatbot-tooltip {
+            position: fixed;
+            bottom: 48px;
+            right: 115px;
+            background-color: var(--azul-oscuro);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 15px;
+            font-size: 15px;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            z-index: 1000;
+            pointer-events: none;
+            animation: bounce-horizontal 2s infinite;
+            border: 2px solid var(--amarillo-bembos);
+        }
+
+        .chatbot-tooltip::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: -8px;
+            transform: translateY(-50%);
+            border-width: 8px 0 8px 8px;
+            border-style: solid;
+            border-color: transparent transparent transparent var(--azul-oscuro);
+        }
+
+        /* Ventana Desplegable del Chatbot */
+        .chatbot-window {
+            position: fixed;
+            bottom: 110px;
+            right: 30px;
+            width: 380px;
+            height: 550px;
+            background: var(--blanco);
+            border-radius: 20px;
+            border: 4px solid var(--azul-bembos);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+            z-index: 1001;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            transform: translateY(40px) scale(0.85);
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.2);
+        }
+
+        /* Estado Activo de la Ventana */
+        .chatbot-window.active {
+            transform: translateY(0) scale(1);
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        /* Cabecera del Chat */
+        .chatbot-header {
+            background-color: var(--azul-bembos);
+            color: var(--blanco);
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 4px solid var(--rojo-bembos);
+        }
+
+        .chatbot-header .bot-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .chatbot-header .bot-avatar {
+            width: 40px;
+            height: 40px;
+            background: var(--amarillo-bembos);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--azul-bembos);
+            font-size: 20px;
+            border: 2px solid var(--blanco);
+        }
+
+        .chatbot-header h3 {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .chatbot-header p {
+            font-size: 12px;
+            color: var(--amarillo-bembos);
+        }
+
+        .chatbot-header .close-btn {
+            background: transparent;
+            border: none;
+            color: var(--blanco);
+            font-size: 20px;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .chatbot-header .close-btn:hover {
+            color: var(--amarillo-bembos);
+        }
+
+        /* Cuerpo del Iframe */
+        .chatbot-body {
+            flex: 1;
+            background: #f4f4f4;
+        }
+
+        .chatbot-body iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* ANIMACIONES */
+        @keyframes bounce-horizontal {
+            0%, 20%, 50%, 80%, 100% { transform: translateX(0); }
+            40% { transform: translateX(-12px); }
+            60% { transform: translateX(-6px); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="logo">BEMBOS<span></span></div>
+        <nav>
+            <a href="#">Menú</a>
+            <a href="#">Promociones</a>
+            <a href="#">Locales</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>Las hamburguesas <span>como más te gustan</span></h1>
+        <p>El verdadero sabor de la carne 100% a la parrilla. ¡Pide rápido, fácil y con toda la sazón original!</p>
+        <a href="#" class="btn-order">¡Ver Combos Bravazos!</a>
+    </section>
+
+    <!-- MENU RECOMENDADOS (Para rellenar la estética de la app) -->
+    <section class="menu-preview">
+        <h2>Los Favoritos de la Tribu 🔥</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=500&auto=format&fit=crop" alt="Hamburguesa" class="card-img">
+                <div class="card-body">
+                    <div class="card-title">Hamburguesa Royal</div>
+                    <div class="card-price">S/ 18.90</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=500&auto=format&fit=crop" alt="Hamburguesa" class="card-img">
+                <div class="card-body">
+                    <div class="card-title">Hamburguesa A lo Pobre</div>
+                    <div class="card-price">S/ 22.90</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=500&auto=format&fit=crop" alt="Pizza" class="card-img">
+                <div class="card-body">
+                    <div class="card-title">Hamburguesa parrillera</div>
+                    <div class="card-price">S/ 24.90</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOOLTIP INVITACIÓN -->
+    <div class="chatbot-tooltip" id="botTooltip">🍔 ¿Hambriento? ¡Pídeme por aquí!</div>
+
+    <!-- BOTÓN FLOTANTE INTERACTIVO -->
+    <div class="chatbot-launcher" id="botLauncher" title="Chatea con nuestro Bot">
+        <i class="fa-solid fa-comments"></i>
+    </div>
+
+    <!-- VENTANA EMERGENTE IN-APP DEL CHATBOT -->
+    <div class="chatbot-window" id="botWindow">
+        <div class="chatbot-header">
+            <div class="bot-info">
+                <div class="bot-avatar">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+                <div>
+                    <h3>Bembos AI Assistant</h3>
+                    <p><i class="fa-solid fa-circle" style="font-size: 8px; color: #2ec4b6; margin-right: 4px;"></i> En línea ahora</p>
+                </div>
+            </div>
+            <button class="close-btn" id="closeBot"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="chatbot-body">
+            <!-- Conexión directa a la app de Streamlit sin romper el diseño de la web -->
+            <iframe src="http://localhost:8501/?embed=true"></iframe>
+        </div>
+    </div>
+
+    <!-- SCRIPT DE INTERACTIVIDAD -->
+    <script>
+        const launcher = document.getElementById('botLauncher');
+        const windowChat = document.getElementById('botWindow');
+        const closeBtn = document.getElementById('closeBot');
+        const tooltip = document.getElementById('botTooltip');
+
+        // Abre y cierra la ventana con transiciones finas
+        launcher.addEventListener('click', () => {
+            windowChat.classList.toggle('active');
+            tooltip.style.display = 'none'; // Oculta el tooltip al interactuar
+        });
+
+        closeBtn.addEventListener('click', () => {
+            windowChat.classList.remove('active');
+        });
+    </script>
+
+</body>
+</html>

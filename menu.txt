@@ -1,0 +1,29 @@
+Hamburguesa Clásica: Carne de res a la parrilla, lechuga, tomate y mayonesa. Alérgenos: Gluten (pan), Huevo (mayonesa). Stock: 80. Precio: S/ 16.90.
+Hamburguesa Cheese: Carne de res a la parrilla, queso edam, lechuga, tomate y mayonesa. Alérgenos: Gluten (pan), Lácteos (queso), Huevo. Stock: 65. Precio: S/ 18.90.
+Hamburguesa Royal: Carne de res a la parrilla, huevo frito, queso edam, lechuga, tomate y mayonesa. Alérgenos: Gluten (pan), Lácteos, Huevo. Stock: 50. Precio: S/ 18.90.
+Hamburguesa Queso Tocino: Carne de res a la parrilla, doble tocino crocante, queso edam, lechuga, tomate y mayonesa. Alérgenos: Gluten (pan), Lácteos, Huevo. Stock: 55. Precio: S/ 18.90.
+Hamburguesa A lo Pobre: Carne de res a la parrilla, huevo frito, plátano frito, cebolla blanca, tomate y mayonesa. Alérgenos: Gluten (pan), Huevo. Stock: 40. Precio: S/ 22.90.
+Hamburguesa La Churrita: Carne de res a la parrilla, tocino, papas al hilo y mayonesa de chimichurri. Alérgenos: Gluten (pan), Huevo. Stock: 45. Precio: S/ 22.90.
+Hamburguesa La Tumbay: Carne de res a la parrilla, huevo frito, tocino, papas tumbay nativas, salsa de chimichurri y lechuga. Alérgenos: Gluten (pan), Huevo. Stock: 35. Precio: S/ 20.90.
+Hamburguesa Parrillera: Carne de res a la parrilla, chorizo parrillero artesanal, chimichurri, tomate, mayonesa y mostaza. Alérgenos: Gluten (pan), Huevo, Mostaza. Stock: 30. Precio: S/ 24.90.
+Hamburguesa Extrema: Doble carne de res a la parrilla, queso edam, tocino, lechuga, tomate y mayonesa. Alérgenos: Gluten (pan), Lácteos, Huevo. Stock: 40. Precio: S/ 24.90.
+Hamburguesa Hawaiana: Carne de res a la parrilla, queso edam, jamón inglés, piña en almíbar y mayonesa. Alérgenos: Gluten (pan), Lácteos, Huevo. Stock: 25. Precio: S/ 22.90.
+Hamburguesa Mexicana: Carne de res a la parrilla, queso edam, salsa guacamole fresca, doritos crocantes, tomate y mayonesa. Alérgenos: Gluten (pan), Lácteos, Huevo. Stock: 30. Precio: S/ 20.90.
+Hamburguesa Chicharronera: Carne de res a la parrilla, delicioso chicharrón de cerdo, camotes al hilo crujientes, cebolla morada y salsa de rocoto. Alérgenos: Gluten (pan). Stock: 28. Precio: S/ 24.90.
+Hamburguesa Huachana: Carne de res a la parrilla, huevo frito revuelto con salchicha huachana, papas al hilo y mayonesa. Alérgenos: Gluten (pan), Huevo. Stock: 20. Precio: S/ 24.90.
+Sandwich Chicken Grill: Pechuga de pollo marinada a la parrilla, lechuga, tomate y mayonesa clásica. Alérgenos: Gluten (pan), Huevo. Stock: 40. Precio: S/ 25.80.
+Sandwich Bembroster Clásica: Filete de pollo crocante estilo broster, lechuga, tomate y mayonesa. Alérgenos: Gluten (pan), Huevo. Stock: 50. Precio: S/ 14.90.
+Papas Fritas Bembos: Papas cortadas en bastón fritas y sazonadas con sal. Alérgenos: Ninguno. Stock: 150.
+Camote Frito Bembos: Rodajas crujientes de camote dulce frito. Alérgenos: Ninguno. Stock: 80.
+Nuggets de Pollo: Porción de 6 piezas de pollo empanizadas y crujientes. Alérgenos: Gluten. Stock: 90.
+Salsa Ají Bembos: El clásico ají especial de la casa de 2 Oz. Alérgenos: Ninguno. Stock: 300.
+Bebidas Gaseosas: Gaseosas personales de 500ml disponibles: Inca Kola (Sabor Original y Sin Azúcar), Coca Cola (Sabor Original y Sin Azúcar), Fanta y Sprite. Alérgenos: Ninguno. Stock: 200.
+Agua San Luis: Agua embotellada mineral sin gas de 625 ml. Alérgenos: Ninguno. Stock: 100.
+Combo Parrillero Bravazo: 1 Hamburguesa Parrillera + 1 porción de Papas Fritas Bembos + 1 Gaseosa personal de 500ml (Inca Kola o Coca Cola). Alérgenos: Gluten (pan), Huevo, Mostaza. Stock: 30. Precio del Combo: S/ 29.90.
+Combo Extremo Universitario: 1 Hamburguesa Extrema (con doble carne, queso edam y tocino) + 1 porción de Papas Fritas Bembos + 1 Gaseosa personal de 500ml a elección. Alérgenos: Gluten (pan), Lácteos, Huevo. Stock: 40. Precio del Combo: S/ 29.90.
+Combo Bembroster Económico: 1 Sandwich Bembroster Clásica (filete de pollo crocante) + 1 porción de Papas Fritas Bembos + 1 Gaseosa personal de 500ml a elección. Alérgenos: Gluten (pan), Huevo. Stock: 50. Precio del Combo: S/ 19.90.
+Dúo Real (Para 2 personas): 2 Hamburguesas Royal (con huevo frito, queso edam, lechuga, tomate y mayonesa) + 2 porciones de Papas Fritas Bembos individuales + 2 Gaseosas personales de 500ml a elección. Alérgenos: Gluten (pan), Lácteos, Huevo. Stock: 45. Precio del Dúo: S/ 42.90.
+Dúo Queso y Tocino (Para 2 personas): 2 Hamburguesas Queso Tocino (con doble tocino, queso edam, lechuga, tomate y mayonesa) + 2 porciones de Papas Fritas Bembos individuales + 2 Gaseosas personales de 500ml a elección. Alérgenos: Gluten (pan), Lácteos, Huevo. Stock: 35. Precio del Dúo: S/ 42.90.
+Dúo Pasión Peruana (Para 2 personas): 1 Hamburguesa A lo Pobre + 1 Hamburguesa La Tumbay + 1 porción grande de Camote Frito Bembos para compartir + 2 Gaseosas personales de 500ml a elección. Alérgenos: Gluten (pan), Huevo, Lácteos. Stock: 25. Precio del Dúo: S/ 46.90.
+Promo Cuadrilla Fest (Para 3 o 4 personas): 2 Hamburguesas Clásicas + 1 Hamburguesa Cheese + 1 Hamburguesa Royal + 2 porciones grandes de Papas Fritas Bembos + 1 porción de 6 Nuggets de Pollo + 4 Gaseosas personales de 500ml a elección. Alérgenos: Gluten (pan), Lácteos, Huevo. Stock: 20. Precio de la Promo: S/ 79.90.
+Promo Piqueo Power (Para compartir): 1 porción de 6 Nuggets de Pollo + 1 porción grande de Papas Fritas Bembos + 1 porción de Camote Frito Bembos + 2 Salsas de Ají Bembos. Alérgenos: Gluten. Stock: 60. Precio de la Promo: S/ 16.90.
