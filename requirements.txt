@@ -1,0 +1,5 @@
+streamlit
+google-generativeai
+langchain-community
+langchain-chroma
+sentence-transformers
